@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>如何在hmcl启动器里添加整合包或游戏本体</title>
+      <link href="/2023/01/11/how-to-add-a-minecraft-version-in-hmcl/"/>
+      <url>/2023/01/11/how-to-add-a-minecraft-version-in-hmcl/</url>
+      
+        <content type="html"><![CDATA[<p>这篇文章存在的意义不算太大，主要还是免得这个博客啥都没有(笑)。但是难免还是会有小白这个操作也不会……</p><hr><p>假设你的hxd想要和你一起玩一个mod，但是你对此一无所知，你的hxd帮你做了个整合包或者直接把他的游戏文件夹发给你了，总之可能是这样的：</p><p><img src="http://blogimage.iamtom.top/img/zip.jpg"></p><p>我们把这两个压缩包分为两类：文件夹嵌套类和开幕雷击类</p><p>先讲讲文件夹嵌套类怎么做</p><h3 id="文件夹嵌套类"><a href="#文件夹嵌套类" class="headerlink" title="文件夹嵌套类"></a>文件夹嵌套类</h3><p>首先，你需要把游戏文件夹解压出来，这个操作视你使用的压缩软件而定，我们这里用很常见的WinRAR来演示</p><p><img src="http://blogimage.iamtom.top/img/zip2.jpg"></p><p>就像图片里的操作，先在WinRAR里，鼠标左键点击这个单独的文件夹，点击上方菜单栏的“解压到”按钮，解压到一个你需要的位置。</p><p><em><strong>（建议不要在文件夹的路径里包含中文，可能会有意想不到的问题发生，并且很有可能给你带来很多麻烦）</strong></em></p><p><img src="http://blogimage.iamtom.top/img/explorer1.jpg"></p><p>现在我们在文件管理器里应该是这样的，我们把hmcl启动器复制到这个“119clean”文件夹下面</p><p>（反正就是一个hmcl……exe在这个下面啦，图片服务器只有10gb省着点用）</p><p>然后你可以点击博客左边的<img src="http://blogimage.iamtom.top/img/list.jpg">按钮直接跳到“在hmcl的操作”啦</p><h3 id="开幕雷击类"><a href="#开幕雷击类" class="headerlink" title="开幕雷击类"></a>开幕雷击类</h3><p>先新建一个文件夹到你所需要的位置</p><p><em><strong>（建议不要在文件夹的路径里包含中文，可能会有意想不到的问题发生，并且很有可能给你带来很多麻烦）</strong></em></p><p><img src="http://blogimage.iamtom.top/img/20230111231958.png"></p><p>打开WinRAR窗口，让WinRAR与在这个文件夹中的文件管理器并排显示，在WinRAR中随便单击一个文件，不要点击最上面的 “..” 文件夹，在键盘上摁下CTRL+A按键（亦可以按住CTRL后按A再松手），然后如下图所示：</p><p><img src="http://blogimage.iamtom.top/img/zip3.jpg"></p><p>可以看到全部文件都被选中，在WinRAR任意一个文件上按住鼠标左键，将文件拖动到已经打开好新建的文件夹的文件管理器里，WinRAR会解压这些文件到新建的文件夹里，现在返回这个文件夹的上一层，把hmcl放在这里</p><p>（反正就是一个hmcl……exe在这个新建的文件夹下面啦，图片服务器只有10gb省着点用）</p><p>然后你可以点击博客左边的<img src="http://blogimage.iamtom.top/img/list.jpg">按钮直接跳到“在hmcl的操作”啦</p><h3 id="在hmcl的操作"><a href="#在hmcl的操作" class="headerlink" title="在hmcl的操作"></a>在hmcl的操作</h3><p>在这里我们用hmcl v3.5.3版本演示，此版本对于老一些的版本来说进行了界面的大改动，按钮位置等细节可能会不一样。</p><p>打开我们在上面几步拷贝好的hmcl启动器，可以看待如下图的界面：</p><p><img src="http://blogimage.iamtom.top/img/hmcl2.jpg"></p><p>点击”版本列表“按钮，向下滚动游戏文件夹列表，直到出现”添加游戏目录“按钮</p><p><img src="http://blogimage.iamtom.top/img/hmcl3.jpg"></p><p>点击”添加游戏目录“按钮，然后在”名称“填写一个你想要的名字，点击游戏路径右边的”铅笔“按钮，选中你已经存放好游戏本体的文件夹，第三个选项不用管，<em><strong>但是要注意，hmcl进入你所选好的路径后应该让它看到 “assets” “config” “libraries”等文件夹</strong></em></p><p><img src="http://blogimage.iamtom.top/img/hmcl4.jpg"></p><p>点击“保存”按钮，回到版本列表界面，这时已经能看见添加的文件夹出现在游戏文件夹列表中，在右侧列表中选择好你的hxd做好的游戏版本，返回主界面，点击“启动游戏”按钮，hmcl会自动补全缺失的文件。最后，享受minecraft的乐趣吧！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 游戏 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> minecraft </tag>
+            
+            <tag> hmcl </tag>
+            
+            <tag> 我的世界 </tag>
+            
+            <tag> mc </tag>
+            
+            <tag> 游戏 </tag>
+            
+            <tag> 启动器 </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/07/23/hello-world/"/>
+      <url>/2022/07/23/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
