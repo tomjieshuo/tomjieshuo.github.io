@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/2024/02/14/test/"/>
+      <url>/2024/02/14/test/</url>
+      
+        <content type="html"><![CDATA[<p>只是用来测试嵌入文章内的图片在 github 被屏蔽情况下经 vercel 转发能否正常显示</p><img src="/2024/02/14/test/doge.jpg" class="" title="failed">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何在hmcl启动器里添加整合包或游戏本体</title>
       <link href="/2023/01/11/how-to-add-a-minecraft-version-in-hmcl/"/>
       <url>/2023/01/11/how-to-add-a-minecraft-version-in-hmcl/</url>
